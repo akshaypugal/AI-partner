@@ -1,8 +1,9 @@
 import { UserButton } from "@clerk/nextjs";
 const landingpage = () => {
     return ( 
-        <div>
-            landing(unprotected)
+        <div className="h-full">
+            
+           
             <UserButton afterSignOutUrl="/"/>
         </div>
      );
