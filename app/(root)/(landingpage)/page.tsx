@@ -4,7 +4,7 @@ const landingpage = () => {
         <div className="h-full">
             
            
-            <UserButton afterSignOutUrl="/"/>
+           
         </div>
      );
 }
